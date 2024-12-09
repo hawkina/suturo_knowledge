@@ -5,6 +5,7 @@
 % Load the main SUTURO ontology
 :- load_owl('package://suturo_knowledge/owl/suturo.owl', [namespace(suturo, 'http://www.ease-crc.org/ont/SUTURO.owl#')]).
 :- load_owl('http://www.ease-crc.org/ont/SOMA-HOME.owl', [namespace(soma_home, 'http://www.ease-crc.org/ont/SOMA-HOME.owl#')]).
+:- load_owl('package://suturo_knowledge/../../soma/owl//CROMA.owl', [namespace(croma, 'http://www.ease-crc.org/ont/CROMA.owl#')]).
 % Imports to register additional namespaces
 :- use_module(library('semweb/rdf_db'),
 		[ rdf_register_prefix/3 ]).
@@ -15,6 +16,7 @@
 :- rdf_register_prefix(soma_obj, 'http://www.ease-crc.org/ont/SOMA-OBJ.owl#', [keep(true)]).
 :- rdf_register_prefix(dul, 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#', [keep(true)]).
 :- rdf_register_prefix(urdf, 'http://knowrob.org/kb/urdf.owl#', [keep(true)]).
+:- rdf_register_prefix(croma, 'http://www.ease-crc.org/ont/CROMA.owl#', [keep(true)]).
 
 %% Make sure utils are loaded before model and other directories
 :- use_directory('util').
