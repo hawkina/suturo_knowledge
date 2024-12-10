@@ -12,7 +12,7 @@
     <owl:Ontology rdf:about="http://www.ease-crc.org/ont/SUTURO.owl">
         <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA-HOME.owl"/>
         <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
-        <owl:imports rdf:resource="package://knowrob/owl/URDF.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/SUTURO/knowrob/refs/heads/master/owl/URDF.owl"/>
     </owl:Ontology>
     
 
