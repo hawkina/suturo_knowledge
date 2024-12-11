@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ease-crc.org/ont/SUTURO#"
-     xml:base="http://www.ease-crc.org/ont/SUTURO"
+     xml:base="https://raw.githubusercontent.com/hawkina/suturo_knowledge/refs/heads/neems/suturo_knowledge/owl/suturo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:SOMA="http://www.ease-crc.org/ont/SOMA.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:SUTURO="http://www.ease-crc.org/ont/SUTURO.owl#">
+     xmlns:SUTURO="https://raw.githubusercontent.com/hawkina/suturo_knowledge/refs/heads/neems/suturo_knowledge/owl/suturo.owl">
     <owl:Ontology rdf:about="http://www.ease-crc.org/ont/SUTURO.owl">
         <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA-HOME.owl"/>
         <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
