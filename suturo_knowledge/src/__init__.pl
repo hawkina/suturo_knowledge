@@ -5,6 +5,7 @@
 % Load the main SUTURO ontology
 :- load_owl('package://suturo_knowledge/owl/suturo.owl', [namespace(suturo, 'http://www.ease-crc.org/ont/SUTURO.owl#')]).
 :- load_owl('http://www.ease-crc.org/ont/SOMA-HOME.owl', [namespace(soma_home, 'http://www.ease-crc.org/ont/SOMA-HOME.owl#')]).
+:- load_owl('http://www.ease-crc.org/ont/SOMA.owl', [namespace(soma, 'http://www.ease-crc.org/ont/SOMA.owl#')]).
 :- load_owl('package://suturo_knowledge/../../soma/owl//CROMA.owl', [namespace(croma, 'http://www.ease-crc.org/ont/CROMA.owl#')]).
 % Imports to register additional namespaces
 :- use_module(library('semweb/rdf_db'),

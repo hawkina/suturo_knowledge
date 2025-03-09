@@ -21,6 +21,9 @@ The documentation is also deployed to the [SUTURO Knowledge Website](https://sut
 
 ### Recommended code editors
 
+- **Visual Studio Code**  
+  Install the [`VSC-Prolog`](https://marketplace.visualstudio.com/items?itemName=arthurwang.vsc-prolog) extension to get syntax highlighting and code completion for Prolog in VS Code.
+
 - **Emacs**  
   If you want to edit Prolog with Emacs, use the following command in in the `src` directory:
   ```bash
@@ -32,9 +35,12 @@ The documentation is also deployed to the [SUTURO Knowledge Website](https://sut
   ```bash
   find ../../.. -iname '*.pl' -exec etags --lang=prolog {} +
   ```
+  
+## confirming installation
 
-- **Visual Studio Code**  
-  Install the [`VSC-Prolog`](https://marketplace.visualstudio.com/items?itemName=arthurwang.vsc-prolog) extension to get syntax highlighting and code completion for Prolog in VS Code.
+```=bash
+rosrun suturo_knowledge suturo_knowledge.launch
+```
 
 ## Testing
 

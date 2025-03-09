@@ -8,5 +8,5 @@
     <arg name="initial_goal" default="init_suturo_knowledge" />
   </include>
   <!-- <node name="give_string" pkg="suturo_knowledge" type="get_object_info.py" output="screen"/> -->
-  <node name="interf_q" pkg="suturo_knowledge" type="interf_q.py" output="screen"/>
+  <!--node name="interf_q" pkg="suturo_knowledge" type="interf_q.py" output="screen"/-->
 </launch>
